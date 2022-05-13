@@ -16,3 +16,12 @@ export const images = [
     src: "https://images.unsplash.com/photo-1447829172150-e5deb8972256?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2376&q=80",
   },
 ];
+
+export const noImages = []
+
+export const oneImage = [
+  {
+    id: 2,
+    src: "https://images.unsplash.com/photo-1652282564241-c3a728e83d0b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2264&q=80",
+  },
+];
