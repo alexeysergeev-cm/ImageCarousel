@@ -16,7 +16,6 @@
   }
 }
 
-
 .carousel-item {
   opacity: 0;
   transition: opacity 1s;
@@ -59,4 +58,30 @@ img {
   display: block;
   position: absolute;
   z-index: 1;
+}
+
+@media (max-width: 1150px) {
+  .carousel {
+    width: 980px;
+    height: 555px;
+    .carousel-container,
+    .carousel-item,
+    img {
+      width: 980px;
+      height: 555px;
+    }
+  }
+}
+
+@media (max-width: 990px) {
+  .carousel {
+    width: 750px;
+    height: 435px;
+    .carousel-container,
+    .carousel-item,
+    img {
+      width: 750px;
+      height: 435px;
+    }
+  }
 }
